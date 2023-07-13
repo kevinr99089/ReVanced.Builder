@@ -5,7 +5,7 @@ See applied patches for [Revanced](https://github.com/kevinr99089/ReVanced.Build
 
 # <p align="center">Available apps:
 <p align="center">
-- YouTube (RV), YouTube Music (RV), Twitch (RV) and TikTok (RV).
+- YouTube (RV), YouTube Music (RV) arm64-v8a, Twitch (RV), TikTok (RV), Messenger (RV) arm64-v8a and NYX (RV) arm64-v8a.
 
 #
 
