@@ -1,50 +1,27 @@
-#### ⚠️ Do not download modules from 3rd party sources like random websites you found on Google. There are many that uses my modules and impersonates ReVanced.
+#### ⚠️ Only non-root releases (Magisk's are disabled)
+#### ⚠️I am [NOT Team ReVanced](https://github.com/j-hc/revanced-magisk-module/blob/main/README.md#%EF%B8%8F-do-not-download-modules-from-3rd-party-sources-like-random-websites-you-found-on-google-there-are-many-that-uses-my-modules-and-impersonates-revanced), support their work [here](https://github.com/revanced).
 
-# ReVanced Magisk Module
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/rvc_magisk)
-[![Build Modules](https://github.com/j-hc/revanced-magisk-module/actions/workflows/build.yml/badge.svg)](https://github.com/j-hc/revanced-magisk-module/actions/workflows/build.yml)
-[![CI](https://github.com/j-hc/revanced-magisk-module/actions/workflows/ci.yml/badge.svg?event=schedule)](https://github.com/j-hc/revanced-magisk-module/actions/workflows/ci.yml)
+See applied patches for [Revanced](https://github.com/kevinr99089/ReVanced.Builder/blob/main/config.toml)
 
-Extensive ReVanced builder  
+# <p align="center">Available apps:
+<p align="center">
+- YouTube (RV), YouTube Music (RV), Twitch (RV) and TikTok (RV).
 
-Get the [latest CI release](https://github.com/j-hc/revanced-magisk-module/releases).
+#
 
-[**mindetach module**](https://github.com/j-hc/mindetach-magisk) in the releases section detaches YouTube and YouTube Music from Play Store and blocks their forced updates.
+Please note that English is not my native language, so I apologize for any errors.
 
-## Features
- * Support all present and future ReVanced and [ReVanced Extended](https://github.com/inotia00/revanced-patches) apps
- * Can build Magisk modules and non-root APKs
- * Updated daily with the latest versions of apps and patches
- * Optimize APKs and modules for size
- * Modules
-     * recompile invalidated odex for faster usage
-     * receive updates from Magisk app
-     * do not break safetynet or trigger root detections
-     * handle installation of the correct version of the stock app and all that
-     * support Magisk and KernelSU
+To read the ReVanced story, [click here](https://github.com/kevinr99089/ReVanced.Builder/blob/History/README.md)
 
-#### **Note that the [CI workflow](../../actions/workflows/ci.yml) is scheduled to build the modules and APKs everyday using GitHub Actions if there is a change in ReVanced patches. You may want to disable it.**
+To install YouTube ReVanced, [click here](https://github.com/kevinr99089/ReVanced.Builder/blob/install/README.md).
 
-## To include/exclude patches or patch more ReVanced Apps
-[**See the list of patches**](https://j-hc.github.io/rvmm-config-gen/)
+This Fork is dedicated to ReVanced builds, if you are looking for Extended builds, please visit my other [fork](https://github.com/kevinr99089/Extended.Builder)
 
- * Star the repo :eyes:
- * [Fork the repo](https://github.com/j-hc/revanced-magisk-module/fork) or use it as a template
- * Customize [`config.toml`](./config.toml) using [rvmm-config-gen](https://j-hc.github.io/rvmm-config-gen/)
- * Run the build [workflow](../../actions/workflows/build.yml)
- * Grab your modules and APKs from [releases](../../releases)
+[![Latest release](https://badgen.net/github/release/kevinr99089/ReVanced.Builder)](https://github.com/kevinr99089/ReVanced.Builder/releases)
+[![GitHub release](https://img.shields.io/github/release/kevinr99089/ReVanced.Builder.svg)](https://GitHub.com/kevinr99089/ReVanced.Builder/releases/latest)
+[![GitHub dnlds](https://img.shields.io/github/downloads/kevinr99089/ReVanced.Builder/total)](https://GitHub.com/kevinr99089/ReVanced.Builder/releases/latest)
 
-also see here [`CONFIG.md`](./CONFIG.md)
+# <p align="center">Thanks to
+[j-hc](https://github.com/j-hc) for [mindetach](https://github.com/j-hc/mindetach-magisk/tree/b821dc8ec683802e572d79e18820f66a46a3ded0) and this [script on which it is based](https://github.com/j-hc/revanced-magisk-module).
 
-# Building Locally
-## On Termux
-```console
-bash <(curl -sSf https://raw.githubusercontent.com/j-hc/revanced-magisk-module/main/build-termux.sh)
-```
-
-## On Desktop
-```console
-$ git clone --recurse https://github.com/j-hc/revanced-magisk-module
-$ cd revanced-magisk-module
-$ ./build.sh
-```
+[ReVanced](https://github.com/revanced) for [ReVanced Patches](https://github.com/revanced/revanced-patches/tree/main) and [ReVanced Manager](https://github.com/revanced/revanced-manager/releases).
